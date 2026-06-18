@@ -3,8 +3,9 @@ import {
   useContext,
   useEffect,
   useState,
-  ReactNode,
+ 
 } from "react";
+import type { ReactNode } from "react"
 import api from "../api/axios";
 import {  type AuthContextType, type User } from "../types/auth";
 
